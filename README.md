@@ -1,24 +1,10 @@
-# pokemon-api
+# Pokemon Picker Web App
 
-## Project setup
-```
-npm install
-```
+## Tech
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Vue 3
+- TailwindCSS
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## API
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- https://pokeapi.co/
