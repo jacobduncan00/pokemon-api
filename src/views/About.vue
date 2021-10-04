@@ -6,7 +6,7 @@
     >
       <h3 className="text-2xl text-black mt-4 uppercase">{{ pokemon.name }}</h3>
       <div class="flex justify-center">
-        <img className="w-48" :src="pokemon.sprites.front_shiny" alt="" />
+        <img className="w-48" :src="pokemon.sprites.front_default" alt="" />
       </div>
       <p class="text-yellow-300 text-xl">Types</p>
       <div class="mb-4">

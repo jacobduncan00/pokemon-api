@@ -13,7 +13,7 @@
         Click Pokemon Name Below
       </div>
       <div
-        class="ml-4 text-2x mb-6 sm:mb-0"
+        class="ml-4 text-2x mb-6 sm:mb-8"
         v-for="(pokemon, idx) in filteredPokemon"
         :key="idx"
       >
@@ -57,7 +57,7 @@ export default {
       );
     }
 
-    fetch("https://pokeapi.co/api/v2/pokemon?offset=0")
+    fetch("https://pokeapi.co/api/v2/pokemon?offset=0&limit=897")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
