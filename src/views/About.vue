@@ -2,7 +2,7 @@
   <div class="about">
     <div
       v-if="pokemon"
-      className="w-3/12 m-auto bg-red-400 shadow-2xl flex justify-center flex-col items-center mt-16"
+      className="sm:w-1/6 m-auto bg-red-400 shadow-2xl flex justify-center flex-col items-center mt-16"
     >
       <h3 className="text-2xl text-black mt-4 uppercase">{{ pokemon.name }}</h3>
       <div class="flex justify-center">

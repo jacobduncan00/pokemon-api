@@ -13,7 +13,7 @@
         Click Pokemon Name Below
       </div>
       <div
-        class="ml-4 text-2x text-blue"
+        class="ml-4 text-2x mb-6 sm:mb-0"
         v-for="(pokemon, idx) in filteredPokemon"
         :key="idx"
       >
