@@ -53,7 +53,7 @@ export default {
         return [];
       }
       return state.pokemons.filter((pokemon) =>
-        pokemon.name.includes(state.userInput.toLowerCase())
+        pokemon.name.startsWith(state.userInput.toLowerCase())
       );
     }
 
